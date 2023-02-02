@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="font-family: 'Courier New', Courier, monospace;
+ color: darkgreen;
+ background-color: beige;
+ border: 1px solid darkgreen; 
+ margin: 5%;
+ padding: 10%;">
+    <h1>DOM - Built-in Objects and Methods</h1>
+    <h3>Prakhar Raj Pandey</h3>
+    <h4>20BCE10423</h4>
+    <script>
+        document.write("<b><h1> Math Object & Methods </h1>");
+
+        var val = Math.abs(12);
+        document.write("ABS Value :" + val + "<br>");
+        var val = Math.acos(1);
+        document.write("COS Value :" + val + "<br>");
+        var val = Math.asin(-1);
+        document.write("SIN Value :" + val + "<br>");
+        var val = Math.atan(0);
+        document.write("TAN Value :" + val + "<br>");
+
+        document.write("<h1> Date Object & Methods </h1>");
+
+        var d = new Date();
+        document.write("Unix Time:" + d.getTime() + "<br>");
+        document.write("Locale String:" + d.toLocaleDateString() + "<br>");
+        document.write("Hours:" + d.getHours() + "<br>");
+        document.write("Day:" + d.getDay() + "<br>");
+        document.write("Month:" + d.getMonth() + "<br>");
+        document.write("Full Year:" + d.getFullYear() + "<br>");
+        document.write("Minutes:" + d.getMinutes() + "<br>");
+
+        document.write("<h1> String Object & Methods </h1>");
+
+        var str = "Hello utopian World";
+        var s = str.split();
+        document.write("CharCode At:" + str.charCodeAt(2) + "<br>");
+        document.write("String Slice :" + str.slice(0 , 4) + "<br>");
+        document.write("Char At:" + str.charAt(1) + "<br>");
+        document.write("Index of:" + str.indexOf("Dys") + "<br>");
+        document.write("Lower Case:" + str.toLowerCase() + "<br>");
+        document.write("Upper Case:" + str.toUpperCase() + "<br>");
+        
+    </script>
+</body>
+
+</html>
